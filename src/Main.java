@@ -2,19 +2,15 @@ import javax.swing.*;
 
 public class Main {
     public static void main(String[] args) {
-        //Variáveis
-        double salarioDoVendedor, valorProduto;
+        // Variaveis
+        int stop = 0;
+        String opcoes[] = {"Cadastrar dados", "Alterar dados", "Mostrar dados", "Mostrar salário final"};
+        String opcoesAlteramento[] = {"Nome", "Salario base", "taxa da empresa"};
+        String decisao, decisaoAlteramento;
 
-        // Criando uma instância da classe
-        Vendedor vendedor = new Vendedor();
+        // Escolhendo as opções
+        while (stop < 1) {
 
-        // Calculador a commissão
-        valorProduto = Double.parseDouble(JOptionPane.showInputDialog("Qual foi o valor do produto vendido?"));
-        salarioDoVendedor = vendedor.CalculoComissao(valorProduto);
-
-        // Mostrar salário
-        JOptionPane.showMessageDialog(null, "Olá " + vendedor.getNome() + ", seu salário é: " + salarioDoVendedor +
-                "\n Salário padrão: " + vendedor.getSalarioBase() +
-                "\n Commisão (10% do valor do produto): " + (valorProduto / 100 * 10));
+        }
     }
 }
