@@ -4,9 +4,11 @@ public class Main {
     public static void main(String[] args) {
         // Variaveis
         int stop = 0;
-        String opcoes[] = {"Cadastrar dados", "Alterar dados", "Mostrar dados", "Mostrar salário final", "Sair"};
+        String opcoes[] = {"Cadastrar dados", "Alterar dados", "Mostrar dados", "Cadastrar vendas", "Mostrar salário final", "Sair"};
         String opcoesAlteramento[] = {"Nome", "Salario base", "taxa da empresa"};
         String decisao, decisaoAlteramento;
+        double[] vetorVendas = new double[0];
+
 
         // Instâncias
         Vendedor vendedor = new Vendedor();
@@ -40,6 +42,8 @@ public class Main {
                     vendedor.AlterarDados(decisaoAlteramento);
                 case "Mostrar dados":
                     vendedor.MostrarDados();
+                case "CadastrarVendas":
+                    break;
                 case "Mostrar salário final":
                     break;
                 case "Sair":
