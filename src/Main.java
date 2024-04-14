@@ -5,7 +5,7 @@ public class Main {
         // Variaveis
         int stop = 0;
         String opcoes[] = {"Cadastrar dados", "Alterar dados", "Mostrar dados", "Cadastrar vendas", "Mostrar salário final", "Sair"};
-        String opcoesAlteramento[] = {"Nome", "Salario base", "taxa da empresa"};
+        String opcoesAlteramento[] = {"Nome", "Salario base", "Taxa da empresa"};
         String decisao, decisaoAlteramento;
         double[] vetorVendas = new double[0];
 

@@ -59,7 +59,7 @@ public class Vendedor {
             case "Nome":
                 this.setNome(JOptionPane.showInputDialog("Qual é o seu Nome?"));
                 break;
-            case "Salario Base":
+            case "Salario base":
                 this.setSalarioBase(Double.parseDouble(JOptionPane.showInputDialog("Qual é o seu salário base?")));
                 break;
             case "Taxa da empresa":
